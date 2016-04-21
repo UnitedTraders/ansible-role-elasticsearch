@@ -15,6 +15,7 @@
     - { regexp: '^script\.inline', line: 'script.inline: on' }
     - { regexp: '^script\.indexed', line: 'script.indexed: on' }
     - { regexp: 'network\.host', line: 'network.host: localhost' }
+    - { regexp: 'cluster\.name', line: 'cluster.name: {{ cluster_name }}'}
   notify: restart elasticsearch
 
 - name: Start Elasticsearch.

@@ -1,7 +1,4 @@
 ---
-dependencies:
-  - { role: geerlingguy.java }
-
 galaxy_info:
   author: geerlingguy
   description: Elasticsearch for Linux.
@@ -22,3 +19,4 @@ galaxy_info:
     - web
     - system
     - monitoring
+dependencies: []
